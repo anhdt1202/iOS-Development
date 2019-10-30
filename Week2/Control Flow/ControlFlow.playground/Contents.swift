@@ -100,7 +100,7 @@ if age >= 55 {
 }
 
 //switch
-let grade: Int = 0
+let grade: Int = 5
 switch grade {
 case  1...5:
     print("Primary school")
@@ -111,4 +111,136 @@ case  10...12:
 default:
     print("No learning")
 }
+//switch case with character
+let character: Character = "a"
+switch character {
+case "a":
+    print("1")
+case "A":
+    print("2")
+default:
+    print("3")
+}
+//switch case with tuples
+let somePoint = (1,1)
+switch somePoint {
+case (0,0):
+    print("\(somePoint) is at the origin")
+case (_,0):
+    print("\(somePoint) is on the x-axis")
+case (0,_):
+    print("\(somePoint) is on the y-axis")
+case (-2...2,-2...2):
+    print("\(somePoint) is inside the box")
+default:
+    print("\(somePoint) is outside the box")
+}
+//using where clause to check for additional conditions
+let anotherPoint = (3, 4)
+switch anotherPoint {
+case let (x, y) where x == y:
+    print("\(x),\(y) is on the line x = y")
+case let (x, y) where x == -y:
+    print("\(x),\(y) is on the line x = -y")
+case let (x, y):
+    print("\(x), \(y) is arbitrary point")
+}
+//compound case
+let alphabetCharater: Character = "a"
+switch alphabetCharater {
+case "u", "e", "o", "a", "i":
+    print("The \(alphabetCharater) is a vowel")
+default:
+    print("The \(alphabetCharater) is not a vowel")
+}
 
+//Continue
+let input = "Write anything to test"
+var output = ""
+let characterToRemove: [Character] = ["a", "e", "i", "u", "o"]
+for character in input {
+    if characterToRemove.contains(character){
+        continue
+    }
+    output.append(character)
+}
+print(output)
+
+let numberSymbol: Character = "三"  // Chinese symbol for the number 3
+var possibleIntegerValue: Int?
+switch numberSymbol {
+case "1", "١", "一", "๑":
+    possibleIntegerValue = 1
+case "2", "٢", "二", "๒":
+    possibleIntegerValue = 2
+case "3", "٣", "三", "๓":
+    possibleIntegerValue = 3
+case "4", "٤", "四", "๔":
+    possibleIntegerValue = 4
+default:
+    break
+}
+if let integerValue = possibleIntegerValue {
+    print("The integer value of \(numberSymbol) is \(integerValue).")
+} else {
+    print("An integer value could not be found for \(numberSymbol).")
+}
+
+//fallthrough
+let integerToDescribe = 5
+var description = "The number \(integerToDescribe) is"
+switch integerToDescribe {
+case 2, 3, 5, 7, 11, 13, 17, 19:
+    description += " a prime number, and also"
+    fallthrough
+default:
+    description += " an integer."
+}
+print(description)
+
+let finalSquare3 = 25
+var board3 = [Int](repeating: 0, count: finalSquare + 1)
+board3[03] = +08; board3[06] = +11; board3[09] = +09; board3[10] = +02
+board3[14] = -10; board3[19] = -11; board3[22] = -02; board3[24] = -08
+var square3 = 0
+var diceRoll3 = 0
+gameLoop: while square3 != finalSquare3 {
+    diceRoll3 += 1
+    if diceRoll3 == 7 { diceRoll3 = 1 }
+    switch square3 + diceRoll3 {
+    case finalSquare3:
+        // diceRoll will move us to the final square, so the game is over
+        break gameLoop
+    case let newSquare where newSquare > finalSquare3:
+        // diceRoll will move us beyond the final square, so roll again
+        continue gameLoop
+    default:
+        // this is a valid move, so find out its effect
+        square3 += diceRoll3
+        square3 += board3[square3]
+    }
+}
+print("Game over!")
+
+//Early exit
+func greet(person: [String : String]){
+    guard let name = person["name"] else {
+        return
+    }
+    print("Hello \(name)")
+    guard let location = person["location"] else {
+        print("I hope the wether is nice near you")
+        return
+    }
+    print("I hope the wether is nice in \(location).")
+}
+greet(person: ["name" : "John"])
+greet(person: ["name" : "Anhdt", "location" : "Nguyen Huy Tuong"])
+
+//checking API avaibility
+if #available(iOS 10, macOS 1012, *){
+    print("a")
+}
+else{
+    print("b")
+}

@@ -16,7 +16,7 @@ struct Game {
         if !word.contains(letter) {
                 incorrectMovesRemaining -= 1
         }
-        
+        // return the incorrect time of user
     }
     var formattedWord: String {
         var guessedWord = ""
@@ -29,6 +29,7 @@ struct Game {
         }
         return guessedWord
     }
+    // get correct value to String 
 
     
     

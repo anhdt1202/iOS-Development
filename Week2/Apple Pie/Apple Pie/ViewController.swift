@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var correctWordLabel: UILabel!
     @IBOutlet var letterButtons: [UIButton]!
 
-    var listOfWords = ["buccaneer", "swift", "glorious",
+    var listOfWords = ["buccaneqer", "swift", "glorious",
     "incandescent", "bug", "program"]
    
     let incorrectMovesAllowed = 7

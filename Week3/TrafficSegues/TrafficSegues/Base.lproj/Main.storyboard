@@ -50,7 +50,7 @@
         <!--Yellow-->
         <scene sceneID="3IS-1X-uvb">
             <objects>
-                <viewController id="7lY-gE-z3V" sceneMemberID="viewController">
+                <viewController id="7lY-gE-z3V" customClass="YellowViewController" customModule="TrafficSegues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oh3-Xi-Ou2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -89,7 +89,7 @@
                     <navigationItem key="navigationItem" title="Green" id="zfG-Dy-eQ7">
                         <barButtonItem key="rightBarButtonItem" title="Pop" id="hLf-8w-W1y">
                             <connections>
-                                <segue destination="F87-nL-9Vb" kind="unwind" unwindAction="unwindToRedWithUnwindSegue:" id="jjN-sn-DQ0"/>
+                                <segue destination="F87-nL-9Vb" kind="unwind" unwindAction="unwindToYellowWithUnwindSegue:" id="alV-au-Rum"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

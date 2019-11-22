@@ -54,9 +54,9 @@ color: red;
     + Properties
     + Subscripts
     + Protocol
- - <h3>Application</h3>
-    + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week4/AppEventCount">AppEvenCount</a>
-    + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week4/AppLifeCycle">AppLifeCycle</a>
-    + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week4/FavoriteAthlete">FavoriteAthlete</a>
-    + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week4/Todo">Todo</a>
+    - <h3 color=red >Application</h3>
+    + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week4/AppEventCount">AppEvenCount</a></br>
+    + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week4/AppLifeCycle">AppLifeCycle</a></br>
+    + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week4/FavoriteAthlete">FavoriteAthlete</a></br>
+    + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week4/Todo">Todo</a></br>
 

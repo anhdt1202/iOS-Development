@@ -38,11 +38,11 @@ color: red;
     + Type Casting and Inspections
     + Guard
 - <h3>Application</h3> 
-    + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week3/Login">Login</a>
-    + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week3/PersonalityQuiz"> PersonalityQuiz</a>
-    + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week3/RainbowTabs">RainbowTabs</a>
-    + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week3/Login/Segues%20and%20Navigation"> Segues and Navigation </a>
-    + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week3/TrafficSegues"> Traffic Segues </a>
+    + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week3/Login">Login</a></br>
+    + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week3/PersonalityQuiz"> PersonalityQuiz</a></br>
+    + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week3/RainbowTabs">RainbowTabs</a></br>
+    + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week3/Login/Segues%20and%20Navigation"> Segues and Navigation </a></br>
+    + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week3/TrafficSegues"> Traffic Segues </a></br>
 
 <h1>4. Tables and Persistence </h1>
  <b>Learn three important sets of techniques in app development, which—taken together—will enable you to build more much complex apps. First, you'll learn how to use tables to display lists of information, and to use the master-detail design pattern to allow users to interact with the information. Second, you'll learn how to organize the files, structures, and classes in your apps, making it easier for you (or other developers) to work with them in the future. Third, you'll learn about an approach for saving data to the device, so that any information the user enters or changes in your app will still be there the next time they open the app.</b>
@@ -54,7 +54,7 @@ color: red;
     + Properties
     + Subscripts
     + Protocol
-    - <h3 color=red >Application</h3>
+    - <h3>Application</h3>
     + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week4/AppEventCount">AppEvenCount</a></br>
     + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week4/AppLifeCycle">AppLifeCycle</a></br>
     + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week4/FavoriteAthlete">FavoriteAthlete</a></br>

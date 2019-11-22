@@ -37,7 +37,7 @@ color: red;
     + Guard
     + Type Casting and Inspections
     + Guard
-- <h3>Application</h3> 
+    - <h3>Application</h3> 
     + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week3/Login">Login</a></br>
     + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week3/PersonalityQuiz"> PersonalityQuiz</a></br>
     + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week3/RainbowTabs">RainbowTabs</a></br>

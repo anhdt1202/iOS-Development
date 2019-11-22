@@ -1,5 +1,8 @@
 App Development with Swift
 ### Title
+h3 {
+color: red;
+}
 <a href="https://books.apple.com/us/book/app-development-with-swift/id1219117996" target="_blank" title="Book on IOS"> book.apple.com </a>
 </br>
 <a href="https://docs.swift.org/swift-book"> The Swift Programming Language Documents </a>
@@ -34,7 +37,7 @@ App Development with Swift
     + Guard
     + Type Casting and Inspections
     + Guard
-- Application :
+- <h3>Application</h3> 
     + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week3/Login">Login</a>
     + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week3/PersonalityQuiz"> PersonalityQuiz</a>
     + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week3/RainbowTabs">RainbowTabs</a>
@@ -51,7 +54,7 @@ App Development with Swift
     + Properties
     + Subscripts
     + Protocol
- - Application
+ - <h3>Application</h3>
     + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week4/AppEventCount">AppEvenCount</a>
     + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week4/AppLifeCycle">AppLifeCycle</a>
     + <a href="https://github.com/anhdt1202/iOS-Development/tree/master/Week4/FavoriteAthlete">FavoriteAthlete</a>

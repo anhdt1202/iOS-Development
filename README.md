@@ -1,6 +1,6 @@
 App Development with Swift
 ### Title
-<a: href="https://books.apple.com/us/book/app-development-with-swift/id1219117996"> Learn iOS Programming by working through the course - Book </a>
+<a: href="https://books.apple.com/us/book/app-development-with-swift/id1219117996" target="_blank" title="Book on IOS"> book.apple.com </a>
 <a: href="https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html"> Documents online </a>
 <a: href="https://www.sololearn.com/User/Login/?ReturnUrl=2fPlay%2fSwift"> Learn and test </a>
 

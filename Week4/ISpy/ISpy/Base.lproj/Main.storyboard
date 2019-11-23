@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ISpy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="k8B-Zg-kxf">
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="giay" translatesAutoresizingMaskIntoConstraints="NO" id="q2r-81-WuY">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="q2r-81-WuY" firstAttribute="top" secondItem="Xra-p2-Cld" secondAttribute="top" id="B5t-k1-7Q4"/>
+                                    <constraint firstItem="q2r-81-WuY" firstAttribute="bottom" secondItem="Xra-p2-Cld" secondAttribute="bottom" id="PCy-qQ-5aj"/>
+                                    <constraint firstItem="q2r-81-WuY" firstAttribute="leading" secondItem="Xra-p2-Cld" secondAttribute="leading" id="TtU-f0-JLj"/>
+                                    <constraint firstItem="q2r-81-WuY" firstAttribute="trailing" secondItem="Xra-p2-Cld" secondAttribute="trailing" id="yXE-WC-iA7"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="Xra-p2-Cld"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="pOq-Qx-QkF"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Dta-rC-0Hr"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imgView" destination="q2r-81-WuY" id="37K-Df-AAm"/>
+                        <outlet property="scrollImageView" destination="k8B-Zg-kxf" id="aoA-nb-j6a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="120"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="giay" width="960" height="720"/>
+    </resources>
+</document>

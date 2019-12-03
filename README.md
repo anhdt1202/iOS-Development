@@ -40,5 +40,6 @@ Learn iOS Programming by working through the course :
 |4.5|[ISpy](./ISpy)
 |4.7|[Favorite Books](./FavoriteBook)
 ### Personal Project
+|Order|Project Name
 |---|---
-|Project Name|[Airliners](./Airliners)
+|P.1|[Airliners](./Airliners)

@@ -1,5 +1,6 @@
 # App Development with Swift
-Learn iOS Programming by working through the course
+Learn iOS Programming by working through the course : 
+</br>
 <a href="https://books.apple.com/us/book/app-development-with-swift/id1219117996" target="_blank" title="Book on IOS">App Development with Swift book </a>
 </br>
 <a href="https://docs.swift.org/swift-book"> The Swift Programming Language Documents </a>
@@ -38,3 +39,6 @@ Learn iOS Programming by working through the course
 |4.4|[Favorite Athletes](./FavoriteAthlete)
 |4.5|[ISpy](./ISpy)
 |4.7|[Favorite Books](./FavoriteBook)
+### Personal Project
+|---|---
+|Project Name|[Airliners](./Airliners)

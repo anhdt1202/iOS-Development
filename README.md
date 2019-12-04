@@ -39,6 +39,7 @@ Learn iOS Programming by working through the course :
 |4.4|[Favorite Athletes](./FavoriteAthlete)
 |4.5|[ISpy](./ISpy)
 |4.7|[Favorite Books](./FavoriteBook)
+|4.8|[EmojiDictionary](./EmojiDictionary)
 ### Personal Project
 |Order|Project Name
 |---|---

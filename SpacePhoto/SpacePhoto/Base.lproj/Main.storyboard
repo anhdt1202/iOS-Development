@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="us5-6o-NNG">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SpacePhoto" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ENt-cb-mSB">
+                                <rect key="frame" x="0.0" y="128" width="414" height="734"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NAv-zn-rP0">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="354"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Description Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ie-w8-zMY">
+                                        <rect key="frame" x="0.0" y="354" width="414" height="359.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5B1-WQ-52R">
+                                        <rect key="frame" x="0.0" y="713.5" width="414" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5B1-WQ-52R" firstAttribute="top" secondItem="6Ie-w8-zMY" secondAttribute="bottomMargin" constant="8" id="0JM-7g-1Ut"/>
+                                    <constraint firstItem="6Ie-w8-zMY" firstAttribute="trailing" secondItem="ENt-cb-mSB" secondAttribute="trailingMargin" id="Iej-DH-zez"/>
+                                    <constraint firstItem="6Ie-w8-zMY" firstAttribute="top" secondItem="NAv-zn-rP0" secondAttribute="bottomMargin" constant="8" id="Kuv-os-kvI"/>
+                                    <constraint firstItem="NAv-zn-rP0" firstAttribute="trailing" secondItem="ENt-cb-mSB" secondAttribute="trailingMargin" id="Q3J-4Z-ZRo"/>
+                                    <constraint firstItem="5B1-WQ-52R" firstAttribute="trailing" secondItem="ENt-cb-mSB" secondAttribute="trailingMargin" id="RAS-g7-Kdc"/>
+                                    <constraint firstItem="NAv-zn-rP0" firstAttribute="top" secondItem="ENt-cb-mSB" secondAttribute="topMargin" id="V7a-hy-Bta"/>
+                                    <constraint firstItem="NAv-zn-rP0" firstAttribute="leading" secondItem="ENt-cb-mSB" secondAttribute="leadingMargin" id="gks-pb-jFJ"/>
+                                    <constraint firstItem="NAv-zn-rP0" firstAttribute="bottom" secondItem="ENt-cb-mSB" secondAttribute="bottom" constant="-380" id="jUl-N6-tiq"/>
+                                    <constraint firstItem="6Ie-w8-zMY" firstAttribute="leading" secondItem="ENt-cb-mSB" secondAttribute="leadingMargin" id="uH2-ph-fci"/>
+                                    <constraint firstItem="5B1-WQ-52R" firstAttribute="leading" secondItem="ENt-cb-mSB" secondAttribute="leadingMargin" id="yqq-Sw-HHS"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ENt-cb-mSB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NbW-cj-Hey"/>
+                            <constraint firstItem="ENt-cb-mSB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="Q7v-Dj-Lxw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ENt-cb-mSB" secondAttribute="bottom" id="RfE-dX-rNr"/>
+                            <constraint firstItem="ENt-cb-mSB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yhe-e7-bDO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6cL-iD-JGr"/>
+                    <connections>
+                        <outlet property="copyrightLabel" destination="5B1-WQ-52R" id="A3T-R0-Ilk"/>
+                        <outlet property="descriptionLabel" destination="6Ie-w8-zMY" id="NKd-yF-bQ4"/>
+                        <outlet property="imageView" destination="NAv-zn-rP0" id="yON-uk-W9c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1042.0289855072465" y="119.86607142857142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SzX-kX-gqB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="us5-6o-NNG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xve-M4-EFg">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Jmm-44-nkR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Rq-Pg-AiD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="119.86607142857142"/>
+        </scene>
+    </scenes>
+</document>
